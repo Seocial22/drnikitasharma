@@ -192,5 +192,11 @@ export default function sitemap() {
       changeFrequency: "weekly",
       priority: 0.9,
     },
+     {
+      url: `${baseUrl}/blog/oral-hygiene-tips-toddlers-kids-ajmer`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
   ];
 }

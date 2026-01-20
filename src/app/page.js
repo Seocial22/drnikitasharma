@@ -331,7 +331,7 @@ export default function Home() {
         <DentalFAQ />
         <ServicesSlider />
         <PatientReviews />
-        <NewYearPopup/>
+        {/* <NewYearPopup/> */}
       </div>
     </>
   );
