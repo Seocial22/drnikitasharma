@@ -90,7 +90,7 @@ export default function sitemap() {
       changeFrequency: "monthly",
       priority: 0.9,
     },
-     {
+    {
       url: `${baseUrl}/blog/laser-dentistry-ajmer-dr-nikita-sharma`,
       lastModified: currentDate,
       changeFrequency: "weekly",
@@ -102,13 +102,13 @@ export default function sitemap() {
       changeFrequency: "weekly",
       priority: 0.95,
     },
-      {
+    {
       url: `${baseUrl}/blog/best-fluoride-treatment-for-kids-ajmer`,
       lastModified: currentDate,
       changeFrequency: "weekly",
       priority: 0.96,
     },
-     {
+    {
       url: `${baseUrl}/blog/best-general-dentistry-ajmer-dr-nikita-sharma`,
       lastModified: currentDate,
       changeFrequency: "weekly",
@@ -120,13 +120,13 @@ export default function sitemap() {
       changeFrequency: "weekly",
       priority: 0.96,
     },
-     {
+    {
       url: `${baseUrl}/blog/common-dental-problems-and-how-to-prevent-them`,
       lastModified: currentDate,
       changeFrequency: "weekly",
       priority: 0.96,
     },
-   {
+    {
       url: `${baseUrl}/blog/importance-of-baby-teeth-early-oral-care`,
       lastModified: currentDate,
       changeFrequency: "weekly",
@@ -138,13 +138,13 @@ export default function sitemap() {
       changeFrequency: "weekly",
       priority: 0.96,
     },
-     {
+    {
       url: `${baseUrl}/blog/how-to-stop-thumb-sucking-habit-children`,
       lastModified: currentDate,
       changeFrequency: "weekly",
       priority: 0.96,
     },
-  {
+    {
       url: `${baseUrl}/blog/root-canal-treatment-ajmer-dr-nikita-sharma`,
       lastModified: currentDate,
       changeFrequency: "weekly",
@@ -192,7 +192,7 @@ export default function sitemap() {
       changeFrequency: "weekly",
       priority: 0.9,
     },
-     {
+    {
       url: `${baseUrl}/blog/oral-hygiene-tips-toddlers-kids-ajmer`,
       lastModified: currentDate,
       changeFrequency: "weekly",
@@ -200,6 +200,12 @@ export default function sitemap() {
     },
     {
       url: `${baseUrl}/blog/thumb-sucking-effects-children-teeth-ajmer`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/blog/braces-aligners-differences-which-is-better-ajmer`,
       lastModified: currentDate,
       changeFrequency: "weekly",
       priority: 0.9,
