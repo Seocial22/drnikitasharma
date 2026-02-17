@@ -210,5 +210,11 @@ export default function sitemap() {
       changeFrequency: "weekly",
       priority: 0.9,
     },
+    {
+      url: `${baseUrl}blog/oral-hygiene-tips-healthy-teeth-gums-ajmer-dr-nikita-sharma`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
   ];
 }
