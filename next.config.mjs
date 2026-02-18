@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'standalone',
-  compress: true, 
+  compress: true,
 };
 
 export default nextConfig;
