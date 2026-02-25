@@ -211,7 +211,13 @@ export default function sitemap() {
       priority: 0.9,
     },
     {
-      url: `${baseUrl}blog/oral-hygiene-tips-healthy-teeth-gums-ajmer-dr-nikita-sharma`,
+      url: `${baseUrl}/blog/oral-hygiene-tips-healthy-teeth-gums-ajmer-dr-nikita-sharma`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/blog/gum-disease-symptoms-stages-treatment-ajmer-dr-nikita-sharma`,
       lastModified: currentDate,
       changeFrequency: "weekly",
       priority: 0.9,
