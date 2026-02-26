@@ -286,7 +286,7 @@ const ClientBlogPage = ({ blogs }) => {
                     priority={blog.id <= 3}
                   />
                   {blog.tags && blog.tags[0] && (
-                    <span className="absolute top-4 left-4 bg-gradient-to-br from-[#00A79D] to-[#4DC7BD] text-white text-xs px-3 py-1 rounded-full">
+                    <span className="absolute bottom-4 right-4 bg-gradient-to-br from-[#00A79D] to-[#4DC7BD] text-white text-xs px-3 py-1 rounded-full">
                       {blog.tags[0]}
                     </span>
                   )}

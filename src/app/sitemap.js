@@ -222,5 +222,11 @@ export default function sitemap() {
       changeFrequency: "weekly",
       priority: 0.9,
     },
+    {
+      url: `${baseUrl}/blog/why-are-baby-teeth-important-milk-teeth-care`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
   ];
 }
