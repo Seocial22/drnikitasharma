@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import Link from "next/link";
 import Image from "next/image";
+import DOMPurify from "isomorphic-dompurify";
 
 // Function to read blogs data
 function getBlogs() {
@@ -141,7 +142,7 @@ function BlogContent({ content }) {
   return (
     <div className="blog-content">
       <style dangerouslySetInnerHTML={{ __html: customStyles }} />
-      <div dangerouslySetInnerHTML={{ __html: content }} />
+      <div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(content) }} />
     </div>
   );
 }
