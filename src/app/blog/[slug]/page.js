@@ -186,7 +186,7 @@ export default async function SingleBlogPage({ params }) {
   return (
     <article className="min-h-screen bg-gradient-to-b from-[#BCF7F1] to-[#E0F8F5]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
-        <div className="relative aspect-[16/9] lg:aspect-[3/1.5] w-full h-40 lg:h-[500px] mb-8">
+        <div className="relative  aspect[3/2] w-full h-64 md:h-[500px] lg:h-[600px] rounded-xl overflow-hidden shadow-lg pb-4">
           <Image
             src={blog.image || "/images/dental-blog-hero.jpg"}
             alt={blog.alt || blog.title}
