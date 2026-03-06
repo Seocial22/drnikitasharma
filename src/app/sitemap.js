@@ -234,5 +234,11 @@ export default function sitemap() {
       changeFrequency: "weekly",
       priority: 0.9,
     },
+    {
+      url: `${baseUrl}/blog/when-do-baby-teeth-start-coming-in`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
   ];
 }
