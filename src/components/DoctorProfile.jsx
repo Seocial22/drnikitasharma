@@ -20,12 +20,12 @@ const DoctorProfile = () => {
             {/* Experience Badge */}
 
             <motion.div
-    initial={{ opacity: 0, y: 50 }}
-    whileInView={{ opacity: 1, y: 0 }}
-    viewport={{ once: true, amount: 0.2 }} // amount: % of element in view to trigger
-    transition={{ duration: 0.6, ease: "easeOut" }}
-  >
-            <div className="
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.2 }} // amount: % of element in view to trigger
+              transition={{ duration: 0.6, ease: "easeOut" }}
+            >
+              <div className="
   absolute 
   bottom-[-20px] 
   left-1/2 
@@ -43,8 +43,8 @@ const DoctorProfile = () => {
   rounded-md 
   shadow-md
 ">
-  {exprince}+ Years <br /> Experience
-</div>
+                {exprince}+ Years <br /> Experience
+              </div>
 
             </motion.div>
           </div>
@@ -72,10 +72,10 @@ const DoctorProfile = () => {
 
           {/* Details */}
           <div className="grid grid-cols-1 sm:grid-cols-[160px_1fr] gap-y-6 gap-x-10 text-sm">
-            <div className="font-semibold text-gray-900">Nivik Smile Care<br/>(Center)</div>
+            <div className="font-semibold text-gray-900">Nivik Smile Care<br />(Center)</div>
             <div className="text-gray-500">
-            <li><strong>Paras Urology & Multispeciality Hospital:</strong> Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer</li>
-            <li><strong>Home:</strong> B-455 Panchsheel, B Block, Ajmer, Rajasthan</li>
+              <li><strong>Paras Urology & Multispeciality Hospital:</strong> Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer</li>
+              <li><strong>Home:</strong>Nivik Care, B-84 Panchsheel B Block, Near Hotel Panchsheel Plaza, Ajmer, Rajasthan 305004</li>
             </div>
 
             <div className="font-semibold text-gray-900">Education</div>

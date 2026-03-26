@@ -60,7 +60,7 @@ export default function Navbar() {
                 <div>
                   <span className="font-medium">Home</span>
                   <p className="text-sm">
-                    B-455 Panchsheel, B Block, Ajmer, Rajasthan
+                    Nivik Care, B-84 Panchsheel B Block, Near Hotel Panchsheel Plaza, Ajmer, Rajasthan 305004
                   </p>
                   <p className="text-sm">5:00 PM - 7:00 PM</p>
                 </div>
@@ -355,7 +355,7 @@ export default function Navbar() {
                     <div>
                       <span className="font-medium">Home</span>
                       <p className="text-sm">
-                        B-455 Panchsheel, B Block, Ajmer, Rajasthan
+                        Nivik Care, B-84 Panchsheel B Block, Near Hotel Panchsheel Plaza, Ajmer, Rajasthan 305004
                       </p>
                       <p className="text-sm">5:00 PM - 7:00 PM</p>
                     </div>

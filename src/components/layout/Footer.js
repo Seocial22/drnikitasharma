@@ -16,10 +16,10 @@ const Footer = () => {
 
           <div className="space-y-4">
             <div>
-              
+
               <p className="text-gray-800 font-bold flex sm:jutsify-center md:jutsify-start text-xl mb-2">
                 Nivik Smile Care
-              </p> 
+              </p>
               <div className="ml-4 space-y-3">
                 <div className="flex items-start">
                   <div className="text-gray-500 mt-1 mr-3">
@@ -79,7 +79,7 @@ const Footer = () => {
                   <div>
                     <p className="text-gray-600 font-medium">Home</p>
                     <p className="text-gray-600">
-                      B-455 Panchsheel, B Block, Ajmer, Rajasthan
+                      Nivik Care, B-84 Panchsheel B Block, Near Hotel Panchsheel Plaza, Ajmer, Rajasthan 305004
                     </p>
                   </div>
                 </div>
@@ -248,13 +248,13 @@ const Footer = () => {
               <div className="text-xs text-gray-500 mt-2">Weekly Off</div>
             </div>
           </div>
-<Link href='/appointment'>
-          <button className="w-full mt-6 bg-teal-500 hover:bg-teal-600 text-white font-medium py-4 px-4 rounded-lg uppercase tracking-wide transition duration-200">
-            Make an Appointment
-          </button></Link>
+          <Link href='/appointment'>
+            <button className="w-full mt-6 bg-teal-500 hover:bg-teal-600 text-white font-medium py-4 px-4 rounded-lg uppercase tracking-wide transition duration-200">
+              Make an Appointment
+            </button></Link>
         </div>
       </div>
-      
+
       {/* Copyright Section - Now at the bottom */}
       <div className="border-t border-gray-200 mt-8 pt-6 px-10 pb-6">
         <p className="text-gray-600 text-sm text-center">
