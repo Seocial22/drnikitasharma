@@ -4,15 +4,20 @@ import './globals.css';
 import FloatingContact from '@/components/FloatingContact';
 import Script from 'next/script';
 
-export const metadata = {
-    verification: {
-    google: 'bVD7yeE-TaaHqFCLHymgx5CN38UnpP55KxSAqBi9Q8o',
-  },
-}
-
+// export const metadata = {
+//   verification: {
+//     google: "bVD7yeE-TaaHqFCLHymgx5CN38UnpP55KxSAqBi9Q8o",
+//   },
+// };
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="bVD7yeE-TaaHqFCLHymgx5CN38UnpP55KxSAqBi9Q8o"
+        />
+      </head>
       <body>
         {/* Google Analytics */}
         <Script
@@ -29,8 +34,8 @@ export default function RootLayout({ children }) {
         </Script>
 
         <Navbar />
-        <main>{children}</main> 
-        <FloatingContact/>
+        <main>{children}</main>
+        <FloatingContact />
         <Footer />
       </body>
     </html>
