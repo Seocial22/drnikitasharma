@@ -4,6 +4,12 @@ import './globals.css';
 import FloatingContact from '@/components/FloatingContact';
 import Script from 'next/script';
 
+export const metadata = {
+    verification: {
+    google: 'bVD7yeE-TaaHqFCLHymgx5CN38UnpP55KxSAqBi9Q8o',
+  },
+}
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
