@@ -62,7 +62,7 @@ export default function Navbar() {
                   <p className="text-sm">
                     Nivik Care, B-84 Panchsheel B Block, Near Hotel Panchsheel Plaza, Ajmer, Rajasthan 305004
                   </p>
-                  <p className="text-sm">5:00 PM - 7:00 PM</p>
+                  <p className="text-sm">5:00 PM - 8:00 PM</p>
                 </div>
               </div>
             </div>
