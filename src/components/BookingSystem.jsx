@@ -445,7 +445,7 @@ const BookingSystem = () => {
                 onClick={() => setConsultationType('evening_clinic')}
               >
                 <span className="text-lg font-medium">Evening Session</span>
-                <span className="text-xs mt-1">5:00 PM - 7:00 PM</span>
+                <span className="text-xs mt-1">5:00 PM - 8:00 PM</span>
                 <span className="text-xs">Nivik Smile Care</span>
               </button>
             </div>

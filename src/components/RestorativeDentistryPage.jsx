@@ -63,7 +63,7 @@ const RestorativeDentistryPage = () => {
                   <MapPin className="w-5 h-5 text-gray-500 mr-2" />
                   <span className="text-gray-700 font-medium">Nivik Smile Care</span>
                 </div>
-                <div className="text-teal-700 font-bold text-lg">5:00 PM - 7:00 PM</div>
+                <div className="text-teal-700 font-bold text-lg">5:00 PM - 8:00 PM</div>
               </div>
             </div>
           </div>

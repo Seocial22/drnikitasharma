@@ -228,7 +228,7 @@ const Footer = () => {
                   <div className="flex justify-between lg:flex-row flex-col items-center">
                     <span className="text-gray-700 font-medium">Home</span>
                     <span className="text-teal-600 font-semibold">
-                      5:00 PM - 7:00 PM
+                      5:00 PM - 8:00 PM
                     </span>
                   </div>
                   <div className="text-xs flex justify-center lg:justify-start text-gray-500 mt-1">
