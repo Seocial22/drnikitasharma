@@ -11,7 +11,7 @@ const GumPeriodontalPage = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-8">
             <div className="flex justify-center mb-4">
-              <Image src="/images/icons/health.png" alt="Gum Health Icon" width={60} height={60} />
+              <Image src="/images/icons/health.webp" alt="Gum Health Icon" width={60} height={60} />
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
               Gum & Periodontal Treatment
@@ -25,7 +25,7 @@ const GumPeriodontalPage = () => {
           <div className="bg-white rounded-2xl shadow-xl p-8 max-w-4xl mx-auto" style={{backgroundColor: '#BCF7F1'}}>
             <div className="text-center mb-6">
               <div className="flex justify-center mb-3">
-                <Image src="/images/icons/doctor.png" alt="Doctor Icon" width={50} height={50} />
+                <Image src="/images/icons/doctor.webp" alt="Doctor Icon" width={50} height={50} />
               </div>
               <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2">
                 Dr. Nikita Sharma
@@ -110,7 +110,7 @@ const GumPeriodontalPage = () => {
               <div key={index} className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
                 <div className="mb-4">
                   <Image 
-                    src={`/images/icons/${service.icon}.png`} 
+                    src={`/images/icons/${service.icon}.webp`} 
                     alt={service.title} 
                     width={48} 
                     height={48}
@@ -184,7 +184,7 @@ const GumPeriodontalPage = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white rounded-2xl shadow-lg p-6">
               <div className="flex items-center mb-4">
-                <Image src="/images/icons/cleaning.png" alt="Deep Cleaning" width={40} height={40} className="mr-4" />
+                <Image src="/images/icons/cleaning.webp" alt="Deep Cleaning" width={40} height={40} className="mr-4" />
                 <h3 className="text-2xl font-bold text-gray-800">Scaling & Root Planing</h3>
               </div>
               <p className="text-gray-700 mb-4">
@@ -210,7 +210,7 @@ const GumPeriodontalPage = () => {
             
             <div className="bg-white rounded-2xl shadow-lg p-6">
               <div className="flex items-center mb-4">
-                <Image src="/images/icons/hygiene.png" alt="Periodontal Maintenance" width={40} height={40} className="mr-4" />
+                <Image src="/images/icons/hygiene.webp" alt="Periodontal Maintenance" width={40} height={40} className="mr-4" />
                 <h3 className="text-2xl font-bold text-gray-800">Periodontal Maintenance</h3>
               </div>
               <p className="text-gray-700 mb-4">
@@ -252,7 +252,7 @@ const GumPeriodontalPage = () => {
                 <div className="bg-white rounded-2xl p-6 h-[250px] shadow-lg mb-4" style={{backgroundColor: '#BCF7F1'}}>
                   <div className="flex justify-center mb-3">
                     <Image 
-                      src={`/images/icons/${process.icon}.png`} 
+                      src={`/images/icons/${process.icon}.webp`} 
                       alt={process.title} 
                       width={48} 
                       height={48}
@@ -277,21 +277,21 @@ const GumPeriodontalPage = () => {
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center p-4">
                 <div className="flex justify-center mb-4">
-                  <Image src="/images/icons/health.png" alt="Prevent Tooth Loss" width={48} height={48} />
+                  <Image src="/images/icons/health.webp" alt="Prevent Tooth Loss" width={48} height={48} />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Prevent Tooth Loss</h3>
                 <p className="text-gray-600">Protect your natural teeth by treating gum disease</p>
               </div>
               <div className="text-center p-4">
                 <div className="flex justify-center mb-4">
-                  <Image src="/images/icons/appearance.png" alt="Healthier Gums" width={48} height={48} />
+                  <Image src="/images/icons/appearance.webp" alt="Healthier Gums" width={48} height={48} />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Healthier Gums</h3>
                 <p className="text-gray-600">Reduce inflammation and bleeding</p>
               </div>
               <div className="text-center p-4">
                 <div className="flex justify-center mb-4">
-                  <Image src="/images/icons/orthodontics.png" alt="Overall Health" width={48} height={48} />
+                  <Image src="/images/icons/orthodontics.webp" alt="Overall Health" width={48} height={48} />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Overall Health</h3>
                 <p className="text-gray-600">Reduce risk of systemic health complications</p>

@@ -35,7 +35,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: '/appointment-og-image.jpg',
+        url: '/appointment-og-image.webp',
         width: 1200,
         height: 630,
         alt: 'Book Dental Appointment - Dr. Nikita Sharma',
@@ -46,7 +46,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: "Book Pediatric Dentist Appointment in Ajmer - Dr Nikita Sharma",
     description: "Schedule your child's dental visit online with Ajmer's leading pediatric dentist at Nivik Smile Care.",
-    images: ['/appointment-twitter-image.jpg'],
+    images: ['/appointment-twitter-image.webp'],
   },
 };
 

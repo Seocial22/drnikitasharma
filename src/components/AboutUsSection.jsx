@@ -186,7 +186,7 @@ const AboutUsSection = () => {
           >
             <div className="rounded-3xl overflow-hidden shadow-xl">
               <Image
-                src="/images/about-hero.jpg"
+                src="/images/about-hero.webp"
                 alt="Team of Dentists"
                 width={600}
                 height={400}

@@ -13,7 +13,7 @@ const DoctorProfile = () => {
         <div className="w-full md:w-[40%] p-6 md:p-10 flex flex-col items-center relative">
           <div className="relative w-full max-w-sm bg-[#E0F7FA] p-3 rounded-xl">
             <img
-              src="/images/drnikita.png"
+              src="/images/drnikita.webp"
               alt="Dr. Nikita Sharma"
               className="w-full h-auto object-cover rounded-lg  "
             />

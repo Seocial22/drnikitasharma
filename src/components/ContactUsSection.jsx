@@ -17,7 +17,7 @@ const ContactUsSection = () => {
     const clinicsData = [
         {
             name: "Nivik Smile Care",
-            imageSrc: "/images/clinics.jpeg",
+            imageSrc: "/images/clinics.webp",
             address: "B-455 PANCHSHEEL B BLOCK, AJMER",
             phone1: "+91 79761 22545",
             email: "niviksmilecare@gmail.com"

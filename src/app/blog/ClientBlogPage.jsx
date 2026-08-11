@@ -212,7 +212,7 @@ const ClientBlogPage = ({ blogs }) => {
             >
               <div className="relative w-full max-w-sm bg-[#E0F7FA] p-3 rounded-xl sm:mx-0 mx-auto">
                 <Image
-                  src="/images/drnikita.png"
+                  src="/images/drnikita.webp"
                   alt="Dr. Nikita Sharma"
                   width={384}
                   height={500}
@@ -278,7 +278,7 @@ const ClientBlogPage = ({ blogs }) => {
               >
                 <div className="relative aspect-video w-full overflow-hidden">
                   <Image
-                    src={blog.image || '/images/dental-blog-placeholder.jpg'}
+                    src={blog.image || '/images/dental-blog-placeholder.webp'}
                     alt={blog.alt || blog.title}
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

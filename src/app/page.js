@@ -50,7 +50,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.webp",
         width: 1200,
         height: 630,
         alt: "Dr. Nikita Sharma - Best Dentist in Ajmer",
@@ -62,7 +62,7 @@ export const metadata = {
     title: "Best Dentist in Ajmer - Dr Nikita Sharma | Nivik Smile Care",
     description:
       "Dr. Nikita Sharma, M.D.S. Pedodontist - Expert dental care in Ajmer. Root canal, implants, teeth whitening & orthodontic services.",
-    images: ["/twitter-image.jpg"],
+    images: ["/twitter-image.webp"],
   },
   robots: {
     index: true,
@@ -101,7 +101,7 @@ const structuredData = {
       description:
         "Experienced Pedodontist providing comprehensive dental care in Ajmer",
       url: "https://drnikitasharma.in/",
-      image: "https://drnikitasharma.in/og-image.jpg",
+      image: "https://drnikitasharma.in/og-image.webp",
       telephone: "+91 79761 22545",
       email: "niviksmilecare@gmail.com",
       hasCredential: [
@@ -182,7 +182,7 @@ const structuredData = {
       url: "https://drnikitasharma.in/",
       telephone: "+91 79761 22545",
       email: "niviksmilecare@gmail.com",
-      image: "https://drnikitasharma.in/og-image.jpg",
+      image: "https://drnikitasharma.in/og-image.webp",
       priceRange: "$$",
       paymentAccepted: "Cash, Card, UPI",
       hasMap: "https://maps.google.com/?q=26.4499,74.6399",

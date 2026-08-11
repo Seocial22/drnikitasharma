@@ -35,7 +35,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: '/faq-og-image.jpg',
+        url: '/faq-og-image.webp',
         width: 1200,
         height: 630,
         alt: 'Pediatric Dental FAQs - Dr. Nikita Sharma',
@@ -46,7 +46,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: "Pediatric Dental FAQs - Expert Answers by Dr. Nikita Sharma",
     description: "Get expert answers to common child dental care questions from Ajmer's top pediatric dentist.",
-    images: ['/faq-twitter-image.jpg'],
+    images: ['/faq-twitter-image.webp'],
   },
 };
 

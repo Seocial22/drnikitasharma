@@ -35,7 +35,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: '/dental-services-og.jpg',
+        url: '/dental-services-og.webp',
         width: 1200,
         height: 630,
         alt: 'Dr. Nikita Sharma - Child & General Dentistry Services',
@@ -46,7 +46,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: "Expert Child & General Dentist in Ajmer - Dr Nikita Sharma",
     description: "Your family's complete dental care solution - pediatric to general dentistry services in Ajmer.",
-    images: ['/dental-services-twitter.jpg'],
+    images: ['/dental-services-twitter.webp'],
   },
 };
 

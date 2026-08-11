@@ -103,7 +103,7 @@ export default function Navbar() {
           >
             <Link href="/" className="flex items-center">
               <Image
-                src="/images/niviksmilecarelogo.png"
+                src="/images/niviksmilecarelogo.webp"
                 alt="Logo"
                 width={200}
                 height={100}
@@ -222,7 +222,7 @@ export default function Navbar() {
                   >
                     <Link href="/" className="flex items-center">
                       <Image
-                        src="/images/logo.png"
+                        src="/images/logo.webp"
                         alt="Logo"
                         width={160}
                         height={80}

@@ -44,7 +44,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: '/blog-og-image.jpg',
+        url: '/blog-og-image.webp',
         width: 1200,
         height: 630,
         alt: 'Dental Health Blog by Dr. Nikita Sharma',
@@ -55,7 +55,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: "Dental Health Blog - Expert Advice by Dr. Nikita Sharma",
     description: "Pediatric dentistry insights and oral health guidance from Ajmer's top child dental specialist.",
-    images: ['/blog-twitter-image.jpg'],
+    images: ['/blog-twitter-image.webp'],
   },
    robots: {
     index: true,
@@ -83,7 +83,7 @@ const jsonLd = {
     "name": "Nivik Smile Care",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://drnikitasharma.in/logo.png"
+      "url": "https://drnikitasharma.in/logo.webp"
     }
   },
   "author": {

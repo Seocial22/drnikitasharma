@@ -11,7 +11,7 @@ const RestorativeDentistryPage = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-8">
             <div className="flex justify-center mb-4">
-              <Image src="/images/icons/treatment.png" alt="Treatment Icon" width={60} height={60} />
+              <Image src="/images/icons/treatment.webp" alt="Treatment Icon" width={60} height={60} />
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
               Restorative Dentistry Services 
@@ -25,7 +25,7 @@ const RestorativeDentistryPage = () => {
           <div className="bg-white rounded-2xl shadow-xl p-8 max-w-4xl mx-auto" style={{backgroundColor: '#BCF7F1'}}>
             <div className="text-center mb-6">
               <div className="flex justify-center mb-3">
-                <Image src="/images/icons/doctor.png" alt="Doctor Icon" width={50} height={50} />
+                <Image src="/images/icons/doctor.webp" alt="Doctor Icon" width={50} height={50} />
               </div>
               <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2">
                 Dr. Nikita Sharma
@@ -110,7 +110,7 @@ const RestorativeDentistryPage = () => {
               <div key={index} className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
                 <div className="mb-4">
                   <Image 
-                    src={`/images/icons/${service.icon}.png`} 
+                    src={`/images/icons/${service.icon}.webp`} 
                     alt={service.title} 
                     width={48} 
                     height={48}
@@ -190,7 +190,7 @@ const RestorativeDentistryPage = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white rounded-2xl shadow-lg p-6">
               <div className="flex items-center mb-4">
-                <Image src="/images/icons/crown.png" alt="Dental Crowns" width={40} height={40} className="mr-4" />
+                <Image src="/images/icons/crown.webp" alt="Dental Crowns" width={40} height={40} className="mr-4" />
                 <h3 className="text-2xl font-bold text-gray-800">Dental Crowns</h3>
               </div>
               <p className="text-gray-700 mb-4">
@@ -216,7 +216,7 @@ const RestorativeDentistryPage = () => {
             
             <div className="bg-white rounded-2xl shadow-lg p-6">
               <div className="flex items-center mb-4">
-                <Image src="/images/icons/treatment.png" alt="Dental Implants" width={40} height={40} className="mr-4" />
+                <Image src="/images/icons/treatment.webp" alt="Dental Implants" width={40} height={40} className="mr-4" />
                 <h3 className="text-2xl font-bold text-gray-800">Dental Implants</h3>
               </div>
               <p className="text-gray-700 mb-4">
@@ -258,7 +258,7 @@ const RestorativeDentistryPage = () => {
                 <div className="bg-white rounded-2xl p-6 shadow-lg mb-4" style={{backgroundColor: '#BCF7F1'}}>
                   <div className="flex justify-center mb-3">
                     <Image 
-                      src={`/images/icons/${process.icon}.png`} 
+                      src={`/images/icons/${process.icon}.webp`} 
                       alt={process.title} 
                       width={48} 
                       height={48}
@@ -283,21 +283,21 @@ const RestorativeDentistryPage = () => {
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center p-4">
                 <div className="flex justify-center mb-4">
-                  <Image src="/images/icons/health.png" alt="Restored Function" width={48} height={48} />
+                  <Image src="/images/icons/health.webp" alt="Restored Function" width={48} height={48} />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Restored Function</h3>
                 <p className="text-gray-600">Eat, speak, and chew comfortably again</p>
               </div>
               <div className="text-center p-4">
                 <div className="flex justify-center mb-4">
-                  <Image src="/images/icons/appearance.png" alt="Improved Appearance" width={48} height={48} />
+                  <Image src="/images/icons/appearance.webp" alt="Improved Appearance" width={48} height={48} />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Improved Appearance</h3>
                 <p className="text-gray-600">Natural-looking repairs that blend seamlessly</p>
               </div>
               <div className="text-center p-4">
                 <div className="flex justify-center mb-4">
-                  <Image src="/images/icons/orthodontics.png" alt="Oral Health" width={48} height={48} />
+                  <Image src="/images/icons/orthodontics.webp" alt="Oral Health" width={48} height={48} />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Oral Health</h3>
                 <p className="text-gray-600">Prevent further dental problems and bone loss</p>

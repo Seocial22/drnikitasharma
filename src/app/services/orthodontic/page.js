@@ -35,7 +35,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: '/orthodontic-og.jpg',
+        url: '/orthodontic-og.webp',
         width: 1200,
         height: 630,
         alt: 'Orthodontic Treatment Services in Ajmer',
@@ -46,7 +46,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: "Orthodontic Treatment in Ajmer - Braces & Aligners",
     description: "Transform your smile with expert orthodontic care from Dr. Nikita Sharma in Ajmer.",
-    images: ['/orthodontic-twitter.jpg'],
+    images: ['/orthodontic-twitter.webp'],
   },
 };
 

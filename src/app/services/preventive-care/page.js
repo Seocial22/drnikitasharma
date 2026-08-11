@@ -34,7 +34,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: '/preventive-care-og.jpg',
+        url: '/preventive-care-og.webp',
         width: 1200,
         height: 630,
         alt: 'Preventive Dental Care Services in Ajmer',
@@ -45,7 +45,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: "Preventive Dental Care in Ajmer - Healthy Smiles for Life",
     description: "Protect your smile with expert preventive dental care from Dr. Nikita Sharma in Ajmer.",
-    images: ['/preventive-care-twitter.jpg'],
+    images: ['/preventive-care-twitter.webp'],
   },
 };
 

@@ -176,17 +176,17 @@ const   DentalCareSection = () => {
           >
             {[
               {
-                icon: "/images/teeth.png",
+                icon: "/images/teeth.webp",
                 title: "Comprehensive Dental Services",
                 description: "From routine check-ups to advanced cosmetic and restorative treatments, we offer a wide range of dental services to meet all your oral health needs."
               },
               {
-                icon: "/images/stethoscope-icon.png",
+                icon: "/images/stethoscope-icon.webp",
                 title: "State-of-the-Art Technology",
                 description: "We utilize cutting-edge dental technology to ensure precise diagnoses and effective treatments, providing you with the best possible care."
               },
               {
-                icon: "/images/doctor.png",
+                icon: "/images/doctor.webp",
                 title: "Expert Dental Professionals",
                 description: "Our team of highly skilled and compassionate dentists is dedicated to helping you achieve a healthy, beautiful smile with personalized care."
               }
@@ -238,7 +238,7 @@ const   DentalCareSection = () => {
             transition={{ duration: 0.3 }}
           >
             <Image 
-              src="/images/drnikita.jpg"
+              src="/images/drnikita.webp"
               alt="Dental professional with child patient" 
               fill
               className="object-cover rounded-lg shadow-2xl"

@@ -35,7 +35,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: '/pediatric-dentist-og.jpg',
+        url: '/pediatric-dentist-og.webp',
         width: 1200,
         height: 630,
         alt: 'Dr. Nikita Sharma - Best Kids Dentist in Ajmer',
@@ -46,7 +46,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: "Best Kids Dentist in Ajmer - Dr Nikita Sharma (BDS, MDS, Pedodontist)",
     description: "Pediatric dental specialist providing gentle, expert care for children at Nivik Smile Care, Ajmer.",
-    images: ['/pediatric-dentist-twitter.jpg'],
+    images: ['/pediatric-dentist-twitter.webp'],
   },
 };
 

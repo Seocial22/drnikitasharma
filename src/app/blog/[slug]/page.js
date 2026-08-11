@@ -40,7 +40,7 @@ export async function generateMetadata({ params }) {
       url: `https://niviksmilecare.com/blog/${blog.slug}`,
       images: [
         {
-          url: blog.image || "/images/dental-blog-placeholder.jpg",
+          url: blog.image || "/images/dental-blog-placeholder.webp",
           width: 1200,
           height: 630,
           alt: blog.alt || blog.title,
@@ -66,7 +66,7 @@ export async function generateMetadata({ params }) {
       title: blog.title,
       description:
         blog.metaDescription || blog.excerpt || blog.content.substring(0, 160),
-      images: [blog.image || "/images/dental-blog-placeholder.jpg"],
+      images: [blog.image || "/images/dental-blog-placeholder.webp"],
     },
     other: {
       "application-name": "Nivik Smile Care",
@@ -188,7 +188,7 @@ export default async function SingleBlogPage({ params }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
         <div className="relative  aspect[3/2] w-full h-64 md:h-[500px] lg:h-[600px] rounded-xl overflow-hidden shadow-lg pb-4">
           <Image
-            src={blog.image || "/images/dental-blog-hero.jpg"}
+            src={blog.image || "/images/dental-blog-hero.webp"}
             alt={blog.alt || blog.title}
             fill
             priority

@@ -11,7 +11,7 @@ const GeneralDentistryPage = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-8">
             <div className="flex justify-center mb-4">
-              <Image src="/images/icons/teeth.png" alt="Teeth Icon" width={60} height={60} />
+              <Image src="/images/icons/teeth.webp" alt="Teeth Icon" width={60} height={60} />
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
               General Dentistry Services 
@@ -25,7 +25,7 @@ const GeneralDentistryPage = () => {
           <div className="bg-white rounded-2xl shadow-xl p-8 max-w-4xl mx-auto" style={{backgroundColor: '#BCF7F1'}}>
             <div className="text-center mb-6">
               <div className="flex justify-center mb-3">
-                <Image src="/images/icons/doctor.png" alt="Doctor Icon" width={50} height={50} />
+                <Image src="/images/icons/doctor.webp" alt="Doctor Icon" width={50} height={50} />
               </div>
               <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2">
                 Dr. Nikita Sharma
@@ -99,12 +99,12 @@ const GeneralDentistryPage = () => {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { icon: "cleaning.png", title: "Professional Cleanings", desc: "Deep cleaning to remove plaque and tartar buildup" },
-              { icon: "examination.png", title: "Comprehensive Exams", desc: "Thorough oral health assessments and screenings" },
-              { icon: "filling.png", title: "Dental Fillings", desc: "Cavity treatment with durable, tooth-colored materials" },
-              { icon: "crown.png", title: "Crowns & Bridges", desc: "Restore damaged teeth and replace missing ones" },
-              { icon: "root-canal.png", title: "Root Canal Treatment", desc: "Save infected teeth with gentle endodontic care" },
-              { icon: "extraction.png", title: "Tooth Extractions", desc: "Safe removal of damaged or problematic teeth" }
+              { icon: "cleaning.webp", title: "Professional Cleanings", desc: "Deep cleaning to remove plaque and tartar buildup" },
+              { icon: "examination.webp", title: "Comprehensive Exams", desc: "Thorough oral health assessments and screenings" },
+              { icon: "filling.webp", title: "Dental Fillings", desc: "Cavity treatment with durable, tooth-colored materials" },
+              { icon: "crown.webp", title: "Crowns & Bridges", desc: "Restore damaged teeth and replace missing ones" },
+              { icon: "root-canal.webp", title: "Root Canal Treatment", desc: "Save infected teeth with gentle endodontic care" },
+              { icon: "extraction.webp", title: "Tooth Extractions", desc: "Safe removal of damaged or problematic teeth" }
             ].map((service, index) => (
               <div key={index} className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
                 <div className="mb-4">
@@ -188,7 +188,7 @@ const GeneralDentistryPage = () => {
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center">
-                  <Image src="/images/icons/hygiene.png" alt="Home Care" width={24} height={24} className="mr-2" />
+                  <Image src="/images/icons/hygiene.webp" alt="Home Care" width={24} height={24} className="mr-2" />
                   At-Home Care
                 </h3>
                 <ul className="space-y-2 text-gray-700">
@@ -212,7 +212,7 @@ const GeneralDentistryPage = () => {
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center">
-                  <Image src="/images/icons/consultation.png" alt="Professional Care" width={24} height={24} className="mr-2" />
+                  <Image src="/images/icons/consultation.webp" alt="Professional Care" width={24} height={24} className="mr-2" />
                   Professional Care
                 </h3>
                 <ul className="space-y-2 text-gray-700">
@@ -245,10 +245,10 @@ const GeneralDentistryPage = () => {
           </h2>
           <div className="grid md:grid-cols-4 gap-6">
             {[
-              { step: "1", icon: "health-history.png", title: "Health History", desc: "Review medical history and dental history" },
-              { step: "2", icon: "examination.png", title: "Examination", desc: "Comprehensive oral health assessment" },
-              { step: "3", icon: "cleaning.png", title: "Cleaning", desc: "Professional cleaning and polishing" },
-              { step: "4", icon: "consultation.png", title: "Treatment Plan", desc: "Discuss findings and recommendations" }
+              { step: "1", icon: "health-history.webp", title: "Health History", desc: "Review medical history and dental history" },
+              { step: "2", icon: "examination.webp", title: "Examination", desc: "Comprehensive oral health assessment" },
+              { step: "3", icon: "cleaning.webp", title: "Cleaning", desc: "Professional cleaning and polishing" },
+              { step: "4", icon: "consultation.webp", title: "Treatment Plan", desc: "Discuss findings and recommendations" }
             ].map((process, index) => (
               <div key={index} className="text-center">
                 <div className="bg-white rounded-2xl p-6 shadow-lg mb-4" style={{backgroundColor: '#BCF7F1'}}>
@@ -279,21 +279,21 @@ const GeneralDentistryPage = () => {
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center p-4">
                 <div className="flex justify-center mb-4">
-                  <Image src="/images/icons/appearance.png" alt="Prevention" width={48} height={48} />
+                  <Image src="/images/icons/appearance.webp" alt="Prevention" width={48} height={48} />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Prevent Problems</h3>
                 <p className="text-gray-600">Early detection and prevention of dental issues saves time and money</p>
               </div>
               <div className="text-center p-4">
                 <div className="flex justify-center mb-4">
-                  <Image src="/images/icons/retention.png" alt="Confidence" width={48} height={48} />
+                  <Image src="/images/icons/retention.webp" alt="Confidence" width={48} height={48} />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Maintain Confidence</h3>
                 <p className="text-gray-600">Keep your smile bright and healthy for lasting confidence</p>
               </div>
               <div className="text-center p-4">
                 <div className="flex justify-center mb-4">
-                  <Image src="/images/icons/health.png" alt="Health" width={48} height={48} />
+                  <Image src="/images/icons/health.webp" alt="Health" width={48} height={48} />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Overall Health</h3>
                 <p className="text-gray-600">Good oral health contributes to better overall physical health</p>

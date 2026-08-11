@@ -26,7 +26,7 @@ const clinicsData = [
     {
         name: "Cosmetic Dentistry",
         slug: "cosmetic-dentistry",
-        imageSrc: "/images/cosmetic-dentistry.jpeg",
+        imageSrc: "/images/cosmetic-dentistry.webp",
         description: "Enhancing the appearance of your smile through teeth whitening, veneers, bonding, and other aesthetic treatments.",
 
     },
@@ -40,14 +40,14 @@ const clinicsData = [
     {
         name: "Preventive Care",
         slug: "preventive-care",
-        imageSrc: "/images/preventive-care.jpeg",
+        imageSrc: "/images/preventive-care.webp",
         description: "Routine checkups, cleanings, and early treatments to maintain oral health and prevent dental issues.",
 
     },
     {
         name: "Gum & Periodontal Care",
         slug: "gum-periodontal-treatment",
-        imageSrc: "/images/gum-periodontal-treatment.jpg",
+        imageSrc: "/images/gum-periodontal-treatment.webp",
         description: "Deep cleaning (scaling and root planing), Gum infection treatment, Periodontal maintenance",
 
     }

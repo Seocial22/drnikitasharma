@@ -250,7 +250,7 @@ const DentalFAQ = () => {
                 transition={{ duration: 0.2 }}
               >
                 <Image 
-                  src="/images/drnikita.png" 
+                  src="/images/drnikita.webp" 
                   alt="Dr. Nikita Sharma" 
                   width={64} 
                   height={64} 

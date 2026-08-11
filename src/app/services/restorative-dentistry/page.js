@@ -35,7 +35,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: '/restorative-dentistry-og.jpg',
+        url: '/restorative-dentistry-og.webp',
         width: 1200,
         height: 630,
         alt: 'Restorative Dental Services in Ajmer',
@@ -46,7 +46,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: "Restorative Dentistry in Ajmer | Smile Restoration",
     description: "Expert tooth repair and replacement solutions from Dr. Nikita Sharma in Ajmer.",
-    images: ['/restorative-dentistry-twitter.jpg'],
+    images: ['/restorative-dentistry-twitter.webp'],
   },
 };
 

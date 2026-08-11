@@ -35,7 +35,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: '/cosmetic-dentistry-og.jpg',
+        url: '/cosmetic-dentistry-og.webp',
         width: 1200,
         height: 630,
         alt: 'Cosmetic Dentistry Services in Ajmer',
@@ -46,7 +46,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: "Cosmetic Dentistry in Ajmer - Smile Makeovers",
     description: "Achieve your dream smile with professional cosmetic dental treatments by Dr. Nikita Sharma.",
-    images: ['/cosmetic-dentistry-twitter.jpg'],
+    images: ['/cosmetic-dentistry-twitter.webp'],
   },
 };
 

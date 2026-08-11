@@ -35,7 +35,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: '/contact-og-image.jpg',
+        url: '/contact-og-image.webp',
         width: 1200,
         height: 630,
         alt: 'Contact Dr. Nikita Sharma - Best Kids Dentist in Ajmer',
@@ -46,7 +46,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: "Contact Best Kids Dentist in Ajmer - Dr Nikita Sharma",
     description: "Book appointments with Ajmer's leading pediatric dentist at Nivik Smile Care. Clinic addresses and contact information.",
-    images: ['/contact-twitter-image.jpg'],
+    images: ['/contact-twitter-image.webp'],
   },
 };
 

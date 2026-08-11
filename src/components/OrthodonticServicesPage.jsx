@@ -11,7 +11,7 @@ const OrthodonticServicesPage = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-8">
             <div className="flex justify-center mb-4">
-              <Image src="/images/icons/teeth.png" alt="Teeth Icon" width={60} height={60} />
+              <Image src="/images/icons/teeth.webp" alt="Teeth Icon" width={60} height={60} />
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
               Orthodontic Services 
@@ -25,7 +25,7 @@ const OrthodonticServicesPage = () => {
           <div className="bg-white rounded-2xl shadow-xl p-8 max-w-4xl mx-auto" style={{backgroundColor: '#BCF7F1'}}>
             <div className="text-center mb-6">
               <div className="flex justify-center mb-3">
-                <Image src="/images/icons/doctor.png" alt="Doctor Icon" width={50} height={50} />
+                <Image src="/images/icons/doctor.webp" alt="Doctor Icon" width={50} height={50} />
               </div>
               <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2">
                 Dr. Nikita Sharma
@@ -77,7 +77,7 @@ const OrthodonticServicesPage = () => {
         <section className="mb-16">
           <div className="bg-white rounded-2xl shadow-lg p-8">
             <h2 className="text-3xl font-bold text-gray-800 mb-6 flex items-center">
-              <Image src="/images/icons/orthodontics.png" alt="Smile Icon" width={32} height={32} className="mr-3" />
+              <Image src="/images/icons/orthodontics.webp" alt="Smile Icon" width={32} height={32} className="mr-3" />
               What is Orthodontics?
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
@@ -99,11 +99,11 @@ const OrthodonticServicesPage = () => {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { icon: "braces.png", title: "Traditional Metal Braces", desc: "Durable and effective for complex alignment issues" },
-              { icon: "orthodontics.png", title: "Clear Ceramic Braces", desc: "Less visible option for discreet treatment" },
-              { icon: "aligners.jpg", title: "Invisible Aligners", desc: "Removable clear aligners for convenient treatment" },
-              { icon: "child.png", title: "Early Intervention", desc: "Interceptive orthodontics for growing children" },
-              { icon: "jaw.png", title: "Jaw Correction", desc: "Treatment for bite problems and jaw alignment" },
+              { icon: "braces.webp", title: "Traditional Metal Braces", desc: "Durable and effective for complex alignment issues" },
+              { icon: "orthodontics.webp", title: "Clear Ceramic Braces", desc: "Less visible option for discreet treatment" },
+              { icon: "aligners.webp", title: "Invisible Aligners", desc: "Removable clear aligners for convenient treatment" },
+              { icon: "child.webp", title: "Early Intervention", desc: "Interceptive orthodontics for growing children" },
+              { icon: "jaw.webp", title: "Jaw Correction", desc: "Treatment for bite problems and jaw alignment" },
               { icon: "retainer.avif", title: "Retainer Therapy", desc: "Maintaining your perfect smile post-treatment" }
             ].map((service, index) => (
               <div key={index} className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
@@ -191,7 +191,7 @@ const OrthodonticServicesPage = () => {
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center">
-                  <Image src="/images/icons/child-care.png" alt="Child Care" width={24} height={24} className="mr-2" />
+                  <Image src="/images/icons/child-care.webp" alt="Child Care" width={24} height={24} className="mr-2" />
                   Early Childhood Care
                 </h3>
                 <ul className="space-y-2 text-gray-700">
@@ -215,7 +215,7 @@ const OrthodonticServicesPage = () => {
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center">
-                  <Image src="/images/icons/hygiene.png" alt="Hygiene" width={24} height={24} className="mr-2" />
+                  <Image src="/images/icons/hygiene.webp" alt="Hygiene" width={24} height={24} className="mr-2" />
                   Daily Oral Hygiene
                 </h3>
                 <ul className="space-y-2 text-gray-700">
@@ -248,10 +248,10 @@ const OrthodonticServicesPage = () => {
           </h2>
           <div className="grid md:grid-cols-4 gap-6">
             {[
-              { step: "1", icon: "consultation.png", title: "Initial Consultation", desc: "Comprehensive examination and diagnosis" },
-              { step: "2", icon: "planning.png", title: "Treatment Planning", desc: "Customized plan based on your needs" },
-              { step: "3", icon: "treatment.png", title: "Active Treatment", desc: "Regular adjustments and monitoring" },
-              { step: "4", icon: "retention.png", title: "Retention   ", desc: "Maintaining your beautiful new smile" }
+              { step: "1", icon: "consultation.webp", title: "Initial Consultation", desc: "Comprehensive examination and diagnosis" },
+              { step: "2", icon: "planning.webp", title: "Treatment Planning", desc: "Customized plan based on your needs" },
+              { step: "3", icon: "treatment.webp", title: "Active Treatment", desc: "Regular adjustments and monitoring" },
+              { step: "4", icon: "retention.webp", title: "Retention   ", desc: "Maintaining your beautiful new smile" }
             ].map((process, index) => (
               <div key={index} className="text-center">
                 <div className="bg-white rounded-2xl p-6 shadow-lg mb-4" style={{backgroundColor: '#BCF7F1'}}>
@@ -282,21 +282,21 @@ const OrthodonticServicesPage = () => {
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center p-4">
                 <div className="flex justify-center mb-4">
-                  <Image src="/images/icons/appearance.png" alt="Appearance" width={48} height={48} />
+                  <Image src="/images/icons/appearance.webp" alt="Appearance" width={48} height={48} />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Enhanced Appearance</h3>
                 <p className="text-gray-600">Boost your confidence with a straighter, more attractive smile</p>
               </div>
               <div className="text-center p-4">
                 <div className="flex justify-center mb-4">
-                  <Image src="/images/icons/health.png" alt="Health" width={48} height={48} />
+                  <Image src="/images/icons/health.webp" alt="Health" width={48} height={48} />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Better Oral Health</h3>
                 <p className="text-gray-600">Easier cleaning and reduced risk of dental problems</p>
               </div>
               <div className="text-center p-4">
                 <div className="flex justify-center mb-4">
-                  <Image src="/images/icons/teeth.png" alt="Function" width={48} height={48} />
+                  <Image src="/images/icons/teeth.webp" alt="Function" width={48} height={48} />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Improved Function</h3>
                 <p className="text-gray-600">Better chewing, speaking, and overall oral function</p>

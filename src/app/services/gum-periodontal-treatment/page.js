@@ -35,7 +35,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: '/gum-treatment-og.jpg',
+        url: '/gum-treatment-og.webp',
         width: 1200,
         height: 630,
         alt: 'Gum Disease Treatment Services in Ajmer',
@@ -46,7 +46,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: "Gum Disease Treatment in Ajmer | Save Your Smile",
     description: "Expert periodontal treatments to restore gum health from Dr. Nikita Sharma in Ajmer.",
-    images: ['/gum-treatment-twitter.jpg'],
+    images: ['/gum-treatment-twitter.webp'],
   },
 };
 

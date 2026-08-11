@@ -35,7 +35,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: '/general-dentistry-og.jpg',
+        url: '/general-dentistry-og.webp',
         width: 1200,
         height: 630,
         alt: 'General Dentistry Services in Ajmer',
@@ -46,7 +46,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: "General Dentistry in Ajmer - Complete Dental Care",
     description: "Professional dental checkups, cleanings and treatments for the whole family in Ajmer.",
-    images: ['/general-dentistry-twitter.jpg'],
+    images: ['/general-dentistry-twitter.webp'],
   },
 };
 

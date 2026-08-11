@@ -44,7 +44,7 @@ export default function NewYearPopup() {
           {/* Banner Image */}
           <div className="relative w-full aspect-square">
             <Image
-              src="/images/new-year-2026.jpg"
+              src="/images/new-year-2026.webp"
               alt="Happy New Year 2026 Wishes"
               fill
               className="object-contain"

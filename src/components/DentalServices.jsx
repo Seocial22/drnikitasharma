@@ -82,32 +82,32 @@ const DentalServices = () => {
   const services = [
     {
       title: "General Dentistry",
-      iconPath: "/images/teeth.png",
+      iconPath: "/images/teeth.webp",
       description: "We bring the right people together to challenge established thinking"
     },
     {
       title: "Dental Surgery",
-      iconPath: "/images/dental-surgery-icon.png",
+      iconPath: "/images/dental-surgery-icon.webp",
       description: "We bring the right people together to challenge established thinking"
     },
     {
       title: "Implants",
-      iconPath: "/images/implants-icon.png",
+      iconPath: "/images/implants-icon.webp",
       description: "We bring the right people together to challenge established thinking"
     },
     {
       title: "Teeth Braces",
-      iconPath: "/images/braces-icon.png",
+      iconPath: "/images/braces-icon.webp",
       description: "We bring the right people together to challenge established thinking"
     },
     {
       title: "Child dentistry (Pedodontist) ",
-      iconPath: "/images/prosthesis-icon.png",
+      iconPath: "/images/prosthesis-icon.webp",
       description: "We bring the right people together to challenge established thinking"
     },
     {
       title: "Whitening",
-      iconPath: "/images/whitening-icon.png",
+      iconPath: "/images/whitening-icon.webp",
       description: "We bring the right people together to challenge established thinking"
     }
   ];
@@ -163,7 +163,7 @@ const DentalServices = () => {
 
           {/* Center Image - Desktop only */}
           <div className="flex justify-center pb-0 mb-0">
-            <img src="/images/dentist.png" alt="Dentist" className="w-full h-full object-cover" />
+            <img src="/images/dentist.webp" alt="Dentist" className="w-full h-full object-cover" />
           </div>
 
           {/* Right Services */}
@@ -188,7 +188,7 @@ const DentalServices = () => {
       
       {/* Dentist Image for Mobile - Repositioned below services, above stats */}
       <div className="w-full md:hidden flex justify-center  px-4">
-        <img src="/images/dentist.png" alt="Dentist" className="w-3/4 max-w-xs object-contain" />
+        <img src="/images/dentist.webp" alt="Dentist" className="w-3/4 max-w-xs object-contain" />
       </div>
 
       {/* Stats Section */}
