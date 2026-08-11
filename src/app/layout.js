@@ -4,15 +4,27 @@ import './globals.css';
 import FloatingContact from '@/components/FloatingContact';
 import Script from 'next/script';
 
-// export const metadata = {
+ export const metadata = {
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
+  },
 //   verification: {
 //     google: "bVD7yeE-TaaHqFCLHymgx5CN38UnpP55KxSAqBi9Q8o",
 //   },
-// };
+ };
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <meta name="robots" content="noindex, nofollow, noarchive" />
+        
+        
         <meta
           name="google-site-verification"
           content="bVD7yeE-TaaHqFCLHymgx5CN38UnpP55KxSAqBi9Q8o"
