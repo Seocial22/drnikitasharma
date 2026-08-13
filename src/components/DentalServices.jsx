@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from 'react';
+import Image from 'next/image';
 
 const DentalServices = () => {
   // Refs for the counter section
@@ -129,7 +130,13 @@ const DentalServices = () => {
               className="flex items-center space-x-4 bg-white p-4 rounded-lg shadow-sm"
             >
               <div className="bg-teal-500 p-3 rounded-lg text-white flex-shrink-0">
-                <img src={service.iconPath} alt={service.title} className="w-9 h-9" />
+                <Image
+                  src={service.iconPath}
+                  alt={service.title}
+                  width={36}
+                  height={36}
+                  className="w-9 h-9"
+                />
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-gray-800">{service.title}</h3>
@@ -155,7 +162,13 @@ const DentalServices = () => {
                   <p className="text-gray-600 text-sm text-right max-w-xs">{service.description}</p>
                 </div>
                 <div className="bg-teal-500 p-3 rounded-lg text-white flex-shrink-0">
-                  <img src={service.iconPath} alt={service.title} className="w-9 h-9" />
+                  <Image
+                    src={service.iconPath}
+                    alt={service.title}
+                    width={36}
+                    height={36}
+                    className="w-9 h-9"
+                  />
                 </div>
               </div>
             ))}
@@ -163,7 +176,18 @@ const DentalServices = () => {
 
           {/* Center Image - Desktop only */}
           <div className="flex justify-center pb-0 mb-0">
-            <img src="/images/dentist.webp" alt="Dentist" className="w-full h-full object-cover" />
+            {/*
+              Adjust width/height below to the real intrinsic dimensions
+              of dentist.webp to keep the aspect ratio accurate.
+            */}
+            <Image
+              src="/images/dentist.webp"
+              alt="Dentist"
+              width={500}
+              height={600}
+              className="w-full h-full object-cover"
+              sizes="(max-width: 1024px) 33vw, 400px"
+            />
           </div>
 
           {/* Right Services */}
@@ -174,7 +198,13 @@ const DentalServices = () => {
                 className="flex items-center space-x-4"
               >
                 <div className="bg-teal-500 p-3 rounded-lg text-white flex-shrink-0">
-                  <img src={service.iconPath} alt={service.title} className="w-9 h-9" />
+                  <Image
+                    src={service.iconPath}
+                    alt={service.title}
+                    width={36}
+                    height={36}
+                    className="w-9 h-9"
+                  />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-gray-800">{service.title}</h3>
@@ -188,7 +218,14 @@ const DentalServices = () => {
       
       {/* Dentist Image for Mobile - Repositioned below services, above stats */}
       <div className="w-full md:hidden flex justify-center  px-4">
-        <img src="/images/dentist.webp" alt="Dentist" className="w-3/4 max-w-xs object-contain" />
+        <Image
+          src="/images/dentist.webp"
+          alt="Dentist"
+          width={500}
+          height={600}
+          className="w-3/4 max-w-xs h-auto object-contain"
+          sizes="75vw"
+        />
       </div>
 
       {/* Stats Section */}

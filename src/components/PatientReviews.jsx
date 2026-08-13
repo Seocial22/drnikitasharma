@@ -206,7 +206,17 @@ const PatientReviews = () => {
           whileHover={{ scale: 1.01 }}
           transition={{ type: "spring", stiffness: 300, damping: 30 }}
         >
-          <ElfsightWidget/>
+          {/*
+            Lazy-mount the widget. ElfsightWidget injects the external
+            https://static.elfsight.com/platform/platform.js script the
+            moment it mounts, and that script blocks the main thread.
+            Since `isInView` starts as false and only flips to true once
+            (because of `once: true` above), the component — and its
+            script — won't exist in the DOM at all until the user has
+            actually scrolled this section into view. This keeps the
+            script off the critical path for initial page load.
+          */}
+          {isInView && <ElfsightWidget />}
         </motion.div>
       </motion.div>
 

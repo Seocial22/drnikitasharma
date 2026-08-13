@@ -1,0 +1,258 @@
+/* Hero.module.css
+   All entrance animations run in pure CSS so they start playing the moment
+   the browser paints the section — they do NOT wait for JS to load,
+   hydrate, or for useInView/useEffect to fire. This keeps the Hero
+   section (and the LCP image inside it) visible from first paint instead
+   of sitting at opacity:0 until Framer Motion kicks in.
+*/
+
+.heroSection {
+  position: relative;
+  overflow: hidden;
+  min-height: 650px;
+  border-bottom-left-radius: 64px;
+  border-bottom-right-radius: 64px;
+  background-color: #bcf7f1;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* Section itself is visible immediately — no scale/opacity gate */
+}
+
+@media (min-width: 1024px) {
+  .heroSection {
+    flex-direction: row;
+    min-height: 600px;
+    padding: 3rem 6rem;
+  }
+}
+
+/* ---------- Left content ---------- */
+
+.leftContent {
+  z-index: 10;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 1024px) {
+  .leftContent {
+    max-width: 50%;
+    margin-bottom: 0;
+  }
+}
+
+.heading {
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  color: #111827;
+  font-size: 2.25rem;
+}
+
+@media (min-width: 768px) {
+  .heading { font-size: 3rem; }
+}
+@media (min-width: 1024px) {
+  .heading { font-size: 3.75rem; }
+}
+
+.headingWord {
+  display: inline-block;
+  margin-right: 0.75rem;
+  opacity: 0;
+  animation: wordReveal 0.6s ease-out forwards;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.headingWord:hover {
+  color: #14b8a6;
+  transform: scale(1.05);
+}
+
+/* Stagger each word using nth-child instead of a JS index/delay */
+.headingWord:nth-child(1) { animation-delay: 0s; }
+.headingWord:nth-child(2) { animation-delay: 0.15s; }
+.headingWord:nth-child(3) { animation-delay: 0.3s; }
+.headingWord:nth-child(4) { animation-delay: 0.45s; }
+.headingWord:nth-child(5) { animation-delay: 0.6s; }
+.headingWord:nth-child(6) { animation-delay: 0.75s; }
+.headingWord:nth-child(7) { animation-delay: 0.9s; }
+
+.paragraph {
+  color: #374151;
+  max-width: 32rem;
+  margin-bottom: 2.5rem;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out 0.5s forwards;
+}
+
+.buttonWrapper {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out 0.7s forwards;
+}
+
+/* ---------- Button (kept interactive via Framer Motion in JS,
+   base look/position is plain CSS so it isn't hidden pre-hydration) ---------- */
+
+.bookButton {
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+  color: #111827;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* ---------- Right image area ---------- */
+
+.imageArea {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* No opacity/scale entrance gate here — the LCP image must be
+     paintable the instant the HTML/CSS arrives. */
+}
+
+@media (min-width: 768px) {
+  .imageArea { height: 24rem; }
+}
+@media (min-width: 1024px) {
+  .imageArea { width: 45%; height: 500px; }
+}
+
+.imageFloat {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  animation: floatY 4s ease-in-out infinite;
+}
+
+.imageFloat img {
+  filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.15));
+}
+
+.imageGlow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(to top, rgba(153, 246, 228, 0.2), transparent);
+  animation: glowPulse 3s ease-in-out infinite;
+}
+
+/* ---------- Decorative background elements ---------- */
+
+.bgCircle1 {
+  position: absolute;
+  top: 2.5rem;
+  left: 2.5rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.1);
+  animation: pulseSoft 3s ease-in-out infinite;
+}
+
+.bgCircle2 {
+  position: absolute;
+  top: 33%;
+  right: 25%;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.15);
+  animation: pulseSoft 4s ease-in-out infinite 1s;
+}
+
+.bgCircle3 {
+  position: absolute;
+  bottom: 25%;
+  left: 33%;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.08);
+  animation: pulseSoft 5s ease-in-out infinite 2s;
+}
+
+.dot1 {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 2.5rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 9999px;
+  background-color: #2dd4bf;
+  opacity: 0.6;
+  animation: pulseDot 2s ease-in-out infinite;
+}
+
+.dot2 {
+  position: absolute;
+  top: 50%;
+  right: 2.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 9999px;
+  background-color: #5eead4;
+  opacity: 0.4;
+  animation: pulseDot 3.5s ease-in-out infinite 0.5s;
+}
+
+/* ---------- Keyframes ---------- */
+
+@keyframes wordReveal {
+  from { opacity: 0; transform: translateY(20px) rotateX(-90deg); }
+  to   { opacity: 1; transform: translateY(0) rotateX(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes floatY {
+  0%, 100% { transform: translateY(-10px); }
+  50%      { transform: translateY(10px); }
+}
+
+@keyframes glowPulse {
+  0%, 100% { opacity: 0.3; }
+  50%      { opacity: 0.6; }
+}
+
+@keyframes pulseSoft {
+  0%, 100% { transform: scale(1); opacity: 0.3; }
+  50%      { transform: scale(1.2); opacity: 0.6; }
+}
+
+@keyframes pulseDot {
+  0%, 100% { transform: scale(1); opacity: 0.6; }
+  50%      { transform: scale(1.5); opacity: 1; }
+}
+
+/* Respect users who've asked for less motion */
+@media (prefers-reduced-motion: reduce) {
+  .headingWord,
+  .paragraph,
+  .buttonWrapper,
+  .imageFloat,
+  .imageGlow,
+  .bgCircle1,
+  .bgCircle2,
+  .bgCircle3,
+  .dot1,
+  .dot2 {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
