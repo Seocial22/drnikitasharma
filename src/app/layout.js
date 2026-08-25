@@ -5,6 +5,7 @@ import FloatingContact from '@/components/FloatingContact';
 import Script from 'next/script';
 
 export const metadata = {
+
   robots: {
     index: true,
     follow: true,
@@ -16,6 +17,11 @@ export const metadata = {
   //   verification: {
   //     google: "bVD7yeE-TaaHqFCLHymgx5CN38UnpP55KxSAqBi9Q8o",
   //   },
+  robots: {
+    index: false,
+    follow: false,
+  },
+
 };
 export default function RootLayout({ children }) {
   return (
