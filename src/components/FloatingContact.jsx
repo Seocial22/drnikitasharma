@@ -10,15 +10,15 @@ const FloatingContact = () => {
   const instagramUsername = '';
 
   useEffect(() => {
-    // Show notification after 3 seconds
+    // Show notification after 7 seconds
     const showTimer = setTimeout(() => {
       setShowNotification(true);
-    }, 3000);
+    }, 7000);
 
-    // Hide notification after 8 seconds (3s delay + 5s display)
+    // Hide notification after 14 seconds (7s delay + 7s display)
     const hideTimer = setTimeout(() => {
       setShowNotification(false);
-    }, 8000);
+    }, 14000);
 
     // Clean up timers on component unmount
     return () => {
@@ -87,6 +87,7 @@ const FloatingContact = () => {
               <button 
                 onClick={() => setIsOpen(false)}
                 className="text-gray-400 hover:text-gray-600"
+                aria-label="Close contact options"
               >
                 <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current">
                   <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
@@ -99,6 +100,7 @@ const FloatingContact = () => {
               <button 
                 onClick={handleWhatsAppClick}
                 className="flex items-center gap-3 bg-green-50 hover:bg-green-100 p-3 rounded-xl transition-all duration-200"
+                aria-label="Chat on WhatsApp"
               >
                 <div className="bg-green-500 rounded-full p-2 flex-shrink-0">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" className="w-8 h-8">
@@ -119,6 +121,7 @@ const FloatingContact = () => {
               <button 
                 onClick={handleCallClick}
                 className="flex items-center gap-3 bg-blue-50 hover:bg-blue-100 p-3 rounded-xl transition-all duration-200"
+                aria-label="Call clinic directly"
               >
                 <div className="bg-blue-500 rounded-full p-2 flex-shrink-0">
                   <svg viewBox="0 0 24 24" className="w-5 h-5 text-white fill-current">

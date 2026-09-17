@@ -1,11 +1,12 @@
-import DentalCareSection from "@/components/DentalCareSection";
+import dynamic from "next/dynamic";
 import Hero from "../components/Hero";
-import DentalServices from "@/components/DentalServices";
-import DentalFAQ from "@/components/DentalFaq";
-import PatientReviews from "@/components/PatientReviews";
-import ServicesSlider from "@/components/ServiceSlider";
 import DoctorProfile from "@/components/DoctorProfile";
-import NewYearPopup from "@/components/NewYearPopup";
+import DentalCareSection from "@/components/DentalCareSection";
+
+const DentalServices = dynamic(() => import("@/components/DentalServices"));
+const DentalFAQ = dynamic(() => import("@/components/DentalFaq"));
+const ServicesSlider = dynamic(() => import("@/components/ServiceSlider"));
+const PatientReviews = dynamic(() => import("@/components/PatientReviews"));
 
 export const metadata = {
   title: "Best Dentist in Ajmer - Dr Nikita Sharma | Nivik Smile Care",

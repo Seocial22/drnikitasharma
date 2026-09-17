@@ -242,7 +242,7 @@ const   DentalCareSection = () => {
               alt="Dental professional with child patient" 
               fill
               className="object-cover rounded-lg shadow-2xl"
-              priority
+              sizes="(max-width: 1024px) 100vw, 500px"
             />
             
             {/* Contact Card - Desktop */}       

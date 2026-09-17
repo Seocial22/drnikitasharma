@@ -73,6 +73,7 @@ export default function Navbar() {
                 href="https://www.facebook.com/profile.php?id=61577209062756"
                 target="_blank"
                 className="hover:opacity-80 transition-opacity"
+                aria-label="Visit our Facebook page"
               >
                 <Facebook size={20} />
               </Link>
@@ -81,6 +82,7 @@ export default function Navbar() {
                 href="https://www.instagram.com/niviksmilecare"
                 target="_blank"
                 className="hover:opacity-80 transition-opacity"
+                aria-label="Visit our Instagram page"
               >
                 <Instagram size={20} />
               </Link>
@@ -96,15 +98,11 @@ export default function Navbar() {
       <div className="bg-white shadow-md py-4">
         <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
           {/* Logo with Text */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.5 }}
-          >
+          <div>
             <Link href="/" className="flex items-center">
               <Image
                 src="/images/niviksmilecarelogo.webp"
-                alt="Logo"
+                alt="Nivik Smile Care Logo"
                 width={200}
                 height={100}
                 className="h-20 w-auto"
@@ -116,20 +114,11 @@ export default function Navbar() {
                 </h2>
               </div>
             </Link>
-          </motion.div>
+          </div>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <motion.div
-              className="flex items-center space-x-8"
-              initial={{ opacity: 0, y: -10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{
-                duration: 0.5,
-                staggerChildren: 0.1,
-                delayChildren: 0.2,
-              }}
-            >
+            <div className="flex items-center space-x-8">
               <Link
                 href="/"
                 className="text-gray-700 font-medium hover:text-[#2EC4B6] transition-colors"
@@ -168,28 +157,25 @@ export default function Navbar() {
                 FAQ
               </Link>
 
-              <motion.div
-                whileHover={{ scale: 1.05 }}
-                transition={{ type: "spring", stiffness: 400, damping: 10 }}
-              >
+              <div className="hover:scale-105 transition-transform">
                 <Link
                   href="/appointment"
                   className="bg-[#2EC4B6] text-white px-6 py-2 rounded-full font-medium hover:bg-opacity-90 transition-colors shadow-md"
                 >
                   MAKE AN APPOINTMENT
                 </Link>
-              </motion.div>
-            </motion.div>
+              </div>
+            </div>
           </div>
 
           {/* Mobile Menu Button */}
-          <motion.button
-            className="md:hidden text-gray-800 p-1 rounded-md focus:outline-none"
+          <button
+            className="md:hidden text-gray-800 p-1 rounded-md focus:outline-none active:scale-90 transition-transform"
             onClick={toggleMenu}
-            whileTap={{ scale: 0.9 }}
+            aria-label="Open navigation menu"
           >
             <Menu size={26} />
-          </motion.button>
+          </button>
         </div>
       </div>
 
@@ -227,7 +213,6 @@ export default function Navbar() {
                         width={160}
                         height={80}
                         className="h-16 w-auto"
-                        priority
                       />
                       <div className="ml-3">
                         <h2 className="text-lg font-bold text-[#14B8A6]">
@@ -240,6 +225,7 @@ export default function Navbar() {
                     onClick={toggleMenu}
                     whileTap={{ scale: 0.9 }}
                     className="text-gray-800 p-1 rounded-md hover:bg-gray-100"
+                    aria-label="Close navigation menu"
                   >
                     <X size={24} />
                   </motion.button>

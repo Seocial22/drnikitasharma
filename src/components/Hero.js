@@ -1,30 +1,10 @@
-"use client";
-
 import React from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
 import Link from "next/link";
 import styles from "./Hero.module.css";
 
 export default function Hero() {
   const words = "Keep your smile clean & shine".split(" ");
-
-  // Only the button's hover/tap interaction needs Framer Motion —
-  // it's a JS-driven interaction, not part of the initial paint,
-  // so it's fine for it to "wake up" after hydration.
-  const buttonHoverVariants = {
-    hover: {
-      scale: 1.05,
-      y: -2,
-      boxShadow: "0 10px 30px rgba(0,0,0,0.15)",
-      transition: { duration: 0.3, ease: "easeOut" },
-    },
-    tap: {
-      scale: 0.98,
-      y: 0,
-      transition: { duration: 0.1 },
-    },
-  };
 
   return (
     <section className={styles.heroSection}>
@@ -51,14 +31,9 @@ export default function Hero() {
 
         <div className={styles.buttonWrapper}>
           <Link href="/appointment">
-            <motion.button
-              className={styles.bookButton}
-              variants={buttonHoverVariants}
-              whileHover="hover"
-              whileTap="tap"
-            >
+            <button className={styles.bookButton}>
               <span className="relative z-10">BOOK AN APPOINTMENT</span>
-            </motion.button>
+            </button>
           </Link>
         </div>
       </div>
@@ -73,7 +48,7 @@ export default function Hero() {
             fill
             className="object-contain object-bottom"
             priority
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
+            sizes="(max-width: 768px) 90vw, (max-width: 1200px) 50vw, 40vw"
           />
           <div className={styles.imageGlow} />
         </div>
